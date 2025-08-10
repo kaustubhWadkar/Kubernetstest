@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo su
 cd /home/ubuntu/kubernets_cluster/tws-e-commerce-app_hackathon/Kubernetstest
 touch logs.txt
 chmod 777 logs.txt
