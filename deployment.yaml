@@ -4,7 +4,7 @@ metadata:
   name: ekslove-deployment
   namespace: kings
 spec:
-  replicas: 3
+  replicas: 20
   selector:
     matchLabels:
       app: ekslove
@@ -17,5 +17,9 @@ spec:
       - name: ekslove-container
         image: 312253715348.dkr.ecr.us-east-1.amazonaws.com/ekslove:12-Aug-25-T22-51
         imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "80Mi"
+            cpu: "80m"
         ports:
         - containerPort: 80
