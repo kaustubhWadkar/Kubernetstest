@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: ekslove-container
-        image: 312253715348.dkr.ecr.us-east-1.amazonaws.com/ekslove:12-Aug-25-T22-22
+        image: 312253715348.dkr.ecr.us-east-1.amazonaws.com/ekslove:12-Aug-25-T22-51
         imagePullPolicy: Always
         ports:
         - containerPort: 80
