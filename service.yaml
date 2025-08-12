@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: ekslove-service
-  namespace: hello-world
+  namespace: kings
 spec:
   type: NodePort
   selector:
