@@ -4,7 +4,7 @@ metadata:
   name: ekslove-deployment
   namespace: kings
 spec:
-  replicas: 20
+  replicas: 10
   selector:
     matchLabels:
       app: ekslove
